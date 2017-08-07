@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ root }}/static/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="{{ root }}/static/lib/fontawesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="{{ root }}/static/css/style.css" />
+    <title>Filip Ramstedt {% if page.title %} | {{ page.title }} {% endif %}</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header clearfix">
+            <h3 style="text-align: center;"><a href="/">Filip Ramstedt</a></h3>
+            <p style="text-align: center;">Occasionally <a href="/about">I</a> write about stuff</p>
+        </div>
+        {{ content }}
+    </div>
+
+    <script src="{{ root }}/static/lib/jquery/jquery-3.2.1.min.js"></script>
+    <script src="{{ root }}/static/js/main.js"></script>
+</body>
+</html>
