@@ -90,3 +90,15 @@ body {
  color: #222 !important;
  text-decoration: none !important;
 }
+
+#post-content pre{
+  padding: 0px !important;
+  border: 0;
+}
+
+#post-content img{
+  margin: 0 auto !important;
+  width: 50%;
+  height: 50%;
+}
+
